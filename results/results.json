@@ -1,0 +1,249 @@
+{
+  "validation": {
+    "rows": 10324,
+    "bad_or_missing_date": 0,
+    "zero_value_lines": 17,
+    "zero_quantity_lines": 0,
+    "value_not_equal_qty_x_price": 0,
+    "duplicate_ids": 0,
+    "freight_not_numeric": 4126,
+    "freight_included_in_commodity_cost": 1442,
+    "freight_on_other_line": 2445,
+    "rows_passed": 10307
+  },
+  "data": {
+    "lines": 10307,
+    "items": 180,
+    "vendors": 73,
+    "countries": 43,
+    "spend_usd": 1627584457.29,
+    "start": "2006-05-02",
+    "end": "2015-12-31"
+  },
+  "bridge": [
+    {
+      "year": 2008,
+      "spend": 112098157.37,
+      "prior_spend": 59273354.99,
+      "price_variance": -10990025.6166,
+      "usage_variance": 62452596.9466,
+      "new_items": 3251980.32,
+      "dropped_items": -1889749.27,
+      "price_change_continuing": -0.0917,
+      "price_index": 90.8291
+    },
+    {
+      "year": 2009,
+      "spend": 132410114.3,
+      "prior_spend": 112098157.37,
+      "price_variance": -12458446.2315,
+      "usage_variance": 21948737.9115,
+      "new_items": 11088617.28,
+      "dropped_items": -266952.03,
+      "price_change_continuing": -0.0931,
+      "price_index": 82.3705
+    },
+    {
+      "year": 2010,
+      "spend": 165250895.43,
+      "prior_spend": 132410114.3,
+      "price_variance": -27985517.7713,
+      "usage_variance": 52543646.1613,
+      "new_items": 10276655.7,
+      "dropped_items": -1994002.96,
+      "price_change_continuing": -0.153,
+      "price_index": 69.7711
+    },
+    {
+      "year": 2011,
+      "spend": 217428967.83,
+      "prior_spend": 165250895.43,
+      "price_variance": -13639126.7729,
+      "usage_variance": 65823231.8929,
+      "new_items": 1367197.61,
+      "dropped_items": -1373230.33,
+      "price_change_continuing": -0.0594,
+      "price_index": 65.6283
+    },
+    {
+      "year": 2012,
+      "spend": 248639226.51,
+      "prior_spend": 217428967.83,
+      "price_variance": -35678744.0525,
+      "usage_variance": 67823675.4525,
+      "new_items": 3746649.26,
+      "dropped_items": -4681321.98,
+      "price_change_continuing": -0.1272,
+      "price_index": 57.2827
+    },
+    {
+      "year": 2013,
+      "spend": 223583765.25,
+      "prior_spend": 248639226.51,
+      "price_variance": -35571790.1729,
+      "usage_variance": 10664033.2129,
+      "new_items": 2471462.18,
+      "dropped_items": -2619166.48,
+      "price_change_continuing": -0.1386,
+      "price_index": 49.3443
+    },
+    {
+      "year": 2014,
+      "spend": 255897106.68,
+      "prior_spend": 223583765.25,
+      "price_variance": -10189478.903,
+      "usage_variance": 43440673.773,
+      "new_items": 601017.86,
+      "dropped_items": -1538871.3,
+      "price_change_continuing": -0.0384,
+      "price_index": 47.4505
+    },
+    {
+      "year": 2015,
+      "spend": 208158356.49,
+      "prior_spend": 255897106.68,
+      "price_variance": -14019569.0427,
+      "usage_variance": -32863600.8073,
+      "new_items": 614550.62,
+      "dropped_items": -1470130.96,
+      "price_change_continuing": -0.0633,
+      "price_index": 44.448
+    }
+  ],
+  "totals": {
+    "price_variance": -160532698.5634524,
+    "usage_variance": 291832994.5434524,
+    "price_index_2015": 44.44801976206351,
+    "spend_growth_2008_2015": 0.8569293320579403
+  },
+  "top_adverse": {
+    "items_with_adverse_pv": 79,
+    "total_adverse_pv": 5985033.99996889,
+    "top10_share": 0.8039098920152654,
+    "top5_share": 0.7014013398384751,
+    "top10": [
+      {
+        "item": "HIV 1/2, Determine Complete HIV Kit, 100 Tests",
+        "adverse_pv": 1843311.2304778078
+      },
+      {
+        "item": "Lopinavir/Ritonavir 200/50mg [Aluvia], tablets, 120 Tabs",
+        "adverse_pv": 1311442.701133613
+      },
+      {
+        "item": "HIV 1/2, Determine HIV Kit, without Lancets, 100 Tests",
+        "adverse_pv": 729976.1279531353
+      },
+      {
+        "item": "Efavirenz 200mg, scored tablets, 90 Tabs",
+        "adverse_pv": 170142.1795523056
+      },
+      {
+        "item": "Stavudine 30mg, capsules, 60 Caps",
+        "adverse_pv": 143038.6274401464
+      },
+      {
+        "item": "Didanosine 100mg, chewable/dispersible tablets, 60 Tabs",
+        "adverse_pv": 140237.18999999997
+      },
+      {
+        "item": "Lamivudine 150mg, tablets, 60 Tabs",
+        "adverse_pv": 135377.938386239
+      },
+      {
+        "item": "Efavirenz 30mg/ml [Stocrin/Sustiva], oral solution, Bottle, 180 ml",
+        "adverse_pv": 129167.00865898532
+      },
+      {
+        "item": "HIV 1/2, Determine Kit without Lancets, Buffer or Caplillary Tubes, 100 Tests",
+        "adverse_pv": 107599.99999999997
+      },
+      {
+        "item": "Tenofovir Disoproxil Fumarate 300mg [Viread], tablets, 30 Tabs",
+        "adverse_pv": 101135.0330204505
+      }
+    ],
+    "total_favourable_pv": -166517732.5634213
+  },
+  "root_cause": {
+    "spend_above_item_year_median": 35612637.41000001,
+    "share_of_spend": 0.02188066938737952,
+    "above_median_from_multi_vendor_items": 0.8646391616688744,
+    "top3_vendors_share_of_above_median": 0.7312068737062403,
+    "top_vendors": [
+      {
+        "vendor": "SCMS from RDC",
+        "usd": 13539188.885000005
+      },
+      {
+        "vendor": "ABBVIE LOGISTICS (FORMERLY ABBOTT LOGISTICS BV)",
+        "usd": 7683162.2
+      },
+      {
+        "vendor": "Orgenics, Ltd",
+        "usd": 4817854.18
+      },
+      {
+        "vendor": "S. BUYS WHOLESALER",
+        "usd": 3212567.855
+      },
+      {
+        "vendor": "Aurobindo Pharma Limited",
+        "usd": 1505585.75
+      }
+    ],
+    "rdc_price_vs_direct_drop_same_item_year": -0.0349579276741353,
+    "item_years_with_both_routes": 237
+  },
+  "freight_by_mode": [
+    {
+      "Shipment Mode": "Air",
+      "lines": 4085,
+      "freight": 42796607.77,
+      "value": 505996834.37,
+      "kg": 8152221.0,
+      "freight_pct_of_value": 0.0846,
+      "usd_per_kg": 5.2497
+    },
+    {
+      "Shipment Mode": "Air Charter",
+      "lines": 423,
+      "freight": 8884755.73,
+      "value": 178411185.77,
+      "kg": 3251372.0,
+      "freight_pct_of_value": 0.0498,
+      "usd_per_kg": 2.7326
+    },
+    {
+      "Shipment Mode": "Ocean",
+      "lines": 282,
+      "freight": 3590728.79,
+      "value": 105623838.58,
+      "kg": 1939423.0,
+      "freight_pct_of_value": 0.034,
+      "usd_per_kg": 1.8514
+    },
+    {
+      "Shipment Mode": "Truck",
+      "lines": 1161,
+      "freight": 11849808.2,
+      "value": 368577927.41,
+      "kg": 7442199.0,
+      "freight_pct_of_value": 0.0322,
+      "usd_per_kg": 1.5922
+    }
+  ],
+  "freight_summary": {
+    "air_per_kg": 5.249686897595146,
+    "ocean_per_kg": 1.8514417896456834,
+    "truck_per_kg": 1.5922455446300212,
+    "air_vs_ocean_per_kg": 2.8354587905244357,
+    "air_share_of_freight": 0.6375952924094567,
+    "freight_pct_of_value_all": 0.05793313788087466
+  },
+  "monthly": {
+    "months": 115,
+    "peak_month": "2015-06",
+    "peak_spend": 38962434.18
+  }
+}
